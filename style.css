@@ -1,0 +1,90 @@
+/*1. Reset Global: zera as margens que o navegador coloca por padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total da caixa */
+}
+
+/* 2. Estilização do corpo do site (fundo e letra) */
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Um cinza bem claro e confortável para os olhos */
+    color: #333333; /* Cinza escuro para o texto, melhor que o preto puro */
+    line-height: 1.6; /* Espaçamento entre linhas do texto */
+    padding: 40px 20px;
+}
+
+/* 3. Estilização do Cabeçalho */
+header {
+    background-color: #1a2a3a; /* Azul escuro elegante */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px; /* Arredonda os cantos da caixa */
+    margin-bottom: 30px; /* Empurra o conteúdo para longe */
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* 4. Estilização do conteúdo principal */
+main {
+    max-width: 800px; /* Limita a largura do site para não espalhar em telas gigantes */
+    margin: 0 auto; /* centraliza a caixa inteira na tela automaticamente */
+}
+
+section {
+    background: #ffffff; /* Fundo branco para as seções se destacarem */
+    padding: 25 px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Sombra leve para dar efeito de profundidade */
+}
+
+section h2 {
+    color: #1a2a3a;
+    border-bottom: 2px solid #1a2a3a; /* Linha decorativa embaixo do título */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilização da Lista de Habilidades */
+
+ul {
+    list-style-type: none; /* Remove aquelas bolinhas padrão da lista */
+}
+
+li {
+    background-color: #eef2f5;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* 6. Estilização do link (Botão) */
+a {
+    display: inline-block; /* Permite que apliquemos padding no link */
+    background-color: #007acc; /* Azul destaque */
+    color: white;
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Efeito Hover: O que acontece quando o mouse passa por cima do link */
+a:hover {
+    background-color: #005999; /* Escurece o botão de leve */
+}
+
+/* 7. Estilização do Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9rem;
+    border-top: 1px solid #e0e0e0; /* Uma linha bem sutil para separar o fim da página */
+}
