@@ -8,7 +8,7 @@
 /* 2. Estilização do corpo do site (fundo e letra) */
 body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6; /* Um cinza bem claro e confortável para os olhos */
+    background-color: #eef2f7; /* Um cinza bem claro e confortável para os olhos */
     color: #333333; /* Cinza escuro para o texto, melhor que o preto puro */
     line-height: 1.6; /* Espaçamento entre linhas do texto */
     padding: 40px 20px;
@@ -66,7 +66,7 @@ li {
 /* 6. Estilização do link (Botão) */
 a {
     display: inline-block; /* Permite que apliquemos padding no link */
-    background-color: #007acc; /* Azul destaque */
+    background-color: #2ecc71; /* Azul destaque */
     color: white;
     text-decoration: none; /* Remove o sublinhado padrão de links */
     padding: 12px 20px;
