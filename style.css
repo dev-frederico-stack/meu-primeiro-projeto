@@ -88,3 +88,36 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #e0e0e0; /* Uma linha bem sutil para separar o fim da página */
 }
+
+/* Aplicando flexbox no menu navegação */
+.menu-navegacao {
+display: flex; /* Ativa o modo flexbox na caixa pai */
+justify-content: center; /* Centraliza todos os botões no eixo horizontal */
+gap: 15px; /* Cria um espaçamento uniforme de 15px entre cada botão */
+margin-top: 20px; /* Empurra o menu um pouco para baixo do parágrafo */
+}
+
+/* Ajuste sutil nos botões do menu para não ficarem gigantes */
+.menu-navegacao a {
+margin-top: 0; /* Remove a margem superior padrão que colocamos antes */
+padding: 8px 16px; /* Deixa os botões do menu um pouco menores e elegantes */
+background-color: transparent; /* Remove o fundo verde do menu */
+border: 2px solid #ffffff; /* Cria uma borda branca elegante */
+transition: all 0.3s ease; /* Cria uma animação suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse nos botões do menu */
+.menu-navegacao a:hover {
+    background-color: #ffffff; /* O botão fica todo branco */
+    color: #1a2a3a; /* O texto fica azul escuro */
+}
+
+/* Aplicando o flexbox em Tecnologias e Competências */
+.competencias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
