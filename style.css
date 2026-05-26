@@ -121,3 +121,36 @@ transition: all 0.3s ease; /* Cria uma animação suave ao passar o mouse */
     text-align: center;
     flex-wrap: wrap;
 }
+
+/* 9. Regras para dispositivos móveis (telas de até 600px de largura) */
+@media (max-width: 600px) {
+    /* Diminuimos o espaçamento do corpo do site para aproveitar a tela do celular */
+    body {
+        padding: 15px 10px;
+    }
+
+    /* O cabeçalho ganha menos preenchimento para não ocupar a tela toda */
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 1.6 rem; /* Diminuimos o tamanho da letra do título */
+    }
+
+    /* O menu de navegação deixa de ser horizontal e empilha os botões verticalmente */
+    .menu-navegacao {
+        flex-direction: column; /* altera o eixo principal do flexbox para vertical */
+        width: 100%;
+    }
+
+    .menu-navegacao a {
+        text-align: center;
+        width: 10%; /* Os botões passam a ocupar a largura total da tela */
+    }
+
+    /* A lista de competência também volta a se comportar como blocos empilhados */
+    .competencias {
+        flex-direction: column;
+    }
+}
